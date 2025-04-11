@@ -5,14 +5,6 @@ import path from 'path';
 // Define koans that match the actual storyboard content
 const koans = [
   {
-    id: 'short640x360-ending-with-black-frames',
-    koan: `A garden listens while green spheres grow,
-The pink vessel waits, but nectar does not flow.
-What sound does sunlight make
-When captured by leaves that do not speak?
-The microphone hears what the gardener cannot.`
-  },
-  {
     id: 'short640x360',
     koan: `The frame holds memories not yet forgotten.
 Two young trees grow beside the old trunk.
@@ -104,4 +96,4 @@ export async function GET() {
     console.error('Error reading storybooks:', error);
     return NextResponse.json({ error: 'Failed to read storybooks' }, { status: 500 });
   }
-} 
+}
