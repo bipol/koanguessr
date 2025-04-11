@@ -1,0 +1,3 @@
+  Duration: 00:00:29.33, start: 0.000000, bitrate: 211 kb/s
+  Stream #0:0[0x1](und): Video: h264 (High) (avc1 / 0x31637661), yuv420p(tv, bt709, progressive), 224x400, 69 kb/s, 60 fps, 60 tbr, 15360 tbn (default)
+  Stream #0:1[0x2](und): Audio: aac (LC) (mp4a / 0x6134706D), 44100 Hz, mono, fltp, 128 kb/s (default)
